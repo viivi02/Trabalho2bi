@@ -1,0 +1,11 @@
+coluna,tipo
+Invoice,object
+StockCode,object
+Description,object
+Quantity,int64
+InvoiceDate,datetime64[ns]
+Price,float64
+CustomerID,float64
+Country,object
+source_file,object
+source_sheet,object

@@ -1,0 +1,8 @@
+etapa,removidos,restantes,justificativa
+Conversao de datas e padronizacao textual,0,1067371,"Garante tipos consistentes para filtros, agregacoes temporais e analises por categorias."
+Remocao de duplicados,12133,1055238,Registros repetidos superestimam quantidades e faturamento.
+Remocao de nulos criticos,0,1055238,"Sem invoice, produto, data, quantidade ou preco nao e possivel calcular uma venda confiavel."
+Remocao de devolucoes/cancelamentos,19433,1035805,Invoices iniciadas por C representam cancelamentos e nao devem compor a demanda vendida.
+Remocao de quantidades negativas ou zero,3457,1032348,"Quantidade menor ou igual a zero indica ajuste, erro ou devolucao, nao uma venda positiva."
+Remocao de precos negativos ou iguais a zero,2739,1029609,Preco nao positivo inviabiliza o calculo de faturamento real.
+Remocao de descricoes ausentes,0,1029609,Descricoes ausentes dificultam analises de produtos mais vendidos e rentaveis.

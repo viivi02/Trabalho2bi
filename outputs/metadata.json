@@ -1,0 +1,21 @@
+{
+  "linhas_iniciais": 1067371,
+  "colunas_iniciais": 10,
+  "linhas_limpas": 1029609,
+  "colunas_limpas": 20,
+  "duplicados_iniciais": 12133,
+  "periodo_inicio": "2009-12-01 07:45:00",
+  "periodo_fim": "2011-12-09 12:50:00",
+  "faturamento_total": 20913891.46799999,
+  "quantidade_total": 11385368,
+  "clientes_unicos": 5878,
+  "produtos_unicos": 4916,
+  "paises_unicos": 43,
+  "outliers_linha_total_iqr": 86701,
+  "limite_outlier_iqr": 38.05500000000001,
+  "dias_modelagem": 711,
+  "dias_treino": 568,
+  "dias_teste": 143,
+  "xgboost_disponivel": true,
+  "melhor_modelo": "Gradient Boosting Regressor"
+}
