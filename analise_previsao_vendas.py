@@ -1,11 +1,4 @@
-"""
-Projeto de Mineracao de Dados - Online Retail II
-
-Este script executa um fluxo CRISP-DM completo para analise e previsao de
-vendas usando apenas os arquivos existentes na pasta data.
-"""
-
-# 1. Importacao das bibliotecas
+# 1. Importacao
 from __future__ import annotations
 
 import json
@@ -50,7 +43,7 @@ REPORTS_DIR.mkdir(exist_ok=True)
 
 
 def brl(value: float) -> str:
-    """Formata valores monetarios em padrao brasileiro."""
+    """Formata valore em padrao brasileiro."""
     return f"R$ {value:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
 
 
