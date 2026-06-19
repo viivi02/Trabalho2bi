@@ -1,5 +1,11 @@
 # Previsao de Vendas - Online Retail II
 
+## Integrantes
+
+Vinicius Lemes
+
+Ramon Franco
+
 ## Introducao
 
 Este projeto aplica o processo CRISP-DM para analisar e prever vendas de uma empresa de varejo online usando o dataset Online Retail II armazenado localmente na pasta `data`. O arquivo identificado foi `online_retail_II.xlsx`, com as abas `Year 2009-2010` e `Year 2010-2011`, consolidadas em uma unica base analitica.
