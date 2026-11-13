@@ -2,7 +2,7 @@
 
 ## Integrantes
 
-Vinicius Lemes
+Vitoria Lemes
 
 Ramon Franco
 
